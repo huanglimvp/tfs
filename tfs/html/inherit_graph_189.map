@@ -1,0 +1,5 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" href="$classtfs_1_1tools_1_1_server_base.html" title="tfs::tools::ServerBase" alt="" coords="5,31,152,57"/>
+<area shape="rect" id="node2" href="$classtfs_1_1tools_1_1_server_cmp.html" title="tfs::tools::ServerCmp" alt="" coords="203,5,346,32"/>
+<area shape="rect" id="node3" href="$classtfs_1_1tools_1_1_server_show.html" title="tfs::tools::ServerShow" alt="" coords="201,56,349,83"/>
+</map>

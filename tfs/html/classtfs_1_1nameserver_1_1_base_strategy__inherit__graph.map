@@ -1,0 +1,5 @@
+<map id="tfs::nameserver::BaseStrategy" name="tfs::nameserver::BaseStrategy">
+<area shape="rect" id="node2" href="$classtfs_1_1nameserver_1_1_replicate_dest_strategy.html" title="tfs::nameserver::Replicate\lDestStrategy" alt="" coords="265,5,437,46"/>
+<area shape="rect" id="node3" href="$classtfs_1_1nameserver_1_1_replicate_source_strategy.html" title="tfs::nameserver::Replicate\lSourceStrategy" alt="" coords="265,70,437,111"/>
+<area shape="rect" id="node4" href="$classtfs_1_1nameserver_1_1_write_strategy.html" title="tfs::nameserver::WriteStrategy" alt="" coords="251,136,450,163"/>
+</map>

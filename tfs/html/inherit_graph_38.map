@@ -1,0 +1,5 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" href="$classtfs_1_1client_1_1_tfs_file.html" title="tfs::client::TfsFile" alt="" coords="6,31,127,57"/>
+<area shape="rect" id="node2" href="$classtfs_1_1client_1_1_tfs_large_file.html" title="tfs::client::TfsLargeFile" alt="" coords="177,5,330,32"/>
+<area shape="rect" id="node3" href="$classtfs_1_1client_1_1_tfs_small_file.html" title="tfs::client::TfsSmallFile" alt="" coords="176,56,331,83"/>
+</map>

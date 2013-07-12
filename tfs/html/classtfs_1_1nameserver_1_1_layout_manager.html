@@ -1,0 +1,384 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>tfs-doc: tfs::nameserver::LayoutManager类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">tfs-doc
+   &#160;<span id="projectnumber">1.4</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.4 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>tfs</b></li><li class="navelem"><b>nameserver</b></li><li class="navelem"><a class="el" href="classtfs_1_1nameserver_1_1_layout_manager.html">LayoutManager</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#friends">友元</a> &#124;
+<a href="classtfs_1_1nameserver_1_1_layout_manager-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">tfs::nameserver::LayoutManager类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:ab91f67ba9d94e049ddfbed6e36054f48"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab91f67ba9d94e049ddfbed6e36054f48"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>initialize</b> (const int32_t chunk_num=32)</td></tr>
+<tr class="separator:ab91f67ba9d94e049ddfbed6e36054f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4de04663331d8180a5f05820aa388ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4de04663331d8180a5f05820aa388ce"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>wait_for_shut_down</b> ()</td></tr>
+<tr class="separator:aa4de04663331d8180a5f05820aa388ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb5f6034e5167b0a57850932d4587f25"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeb5f6034e5167b0a57850932d4587f25"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>destroy</b> ()</td></tr>
+<tr class="separator:aeb5f6034e5167b0a57850932d4587f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80900c0b66ac734f64a27e3259bdb5a1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80900c0b66ac734f64a27e3259bdb5a1"></a>
+int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>get_alive_server_size</b> () const </td></tr>
+<tr class="separator:a80900c0b66ac734f64a27e3259bdb5a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ccc501528ed2441889643eea34aecb6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0ccc501528ed2441889643eea34aecb6"></a>
+<a class="el" href="classtfs_1_1nameserver_1_1_client_request_server.html">ClientRequestServer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>get_client_request_server</b> ()</td></tr>
+<tr class="separator:a0ccc501528ed2441889643eea34aecb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34de4d58a8bf345db491a16fc1d98954"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34de4d58a8bf345db491a16fc1d98954"></a>
+BlockChunkPtr&#160;</td><td class="memItemRight" valign="bottom"><b>get_chunk</b> (const uint32_t block_id) const </td></tr>
+<tr class="separator:a34de4d58a8bf345db491a16fc1d98954"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4418973d9c481f2171f26d1da022f9a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4418973d9c481f2171f26d1da022f9a3"></a>
+<a class="el" href="classtfs_1_1nameserver_1_1_server_collect.html">ServerCollect</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>get_server</b> (const uint64_t server_id)</td></tr>
+<tr class="separator:a4418973d9c481f2171f26d1da022f9a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c75a7f1a891d43d3ca8a89171d0b4e0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1nameserver_1_1_layout_manager.html#a3c75a7f1a891d43d3ca8a89171d0b4e0">add_server</a> (const <a class="el" href="structtfs_1_1common_1_1_data_server_stat_info.html">common::DataServerStatInfo</a> &amp;info, const time_t now, bool &amp;isnew)</td></tr>
+<tr class="separator:a3c75a7f1a891d43d3ca8a89171d0b4e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdcb4b055f269b486fd751841d670bac"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1nameserver_1_1_layout_manager.html#afdcb4b055f269b486fd751841d670bac">remove_server</a> (const uint64_t id, const time_t now)</td></tr>
+<tr class="separator:afdcb4b055f269b486fd751841d670bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86654ec4ca7b91cbf10948c1f432940b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1nameserver_1_1_layout_manager.html#a86654ec4ca7b91cbf10948c1f432940b">update_relation</a> (<a class="el" href="classtfs_1_1nameserver_1_1_server_collect.html">ServerCollect</a> *server, const std::vector&lt; <a class="el" href="structtfs_1_1common_1_1_block_info.html">common::BlockInfo</a> &gt; &amp;blocks, EXPIRE_BLOCK_LIST &amp;expires, const time_t now)</td></tr>
+<tr class="separator:a86654ec4ca7b91cbf10948c1f432940b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab59b9efa4fd42edb1536f9cb9aac9d84"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab59b9efa4fd42edb1536f9cb9aac9d84"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>build_relation</b> (<a class="el" href="classtfs_1_1nameserver_1_1_block_collect.html">BlockCollect</a> *block, <a class="el" href="classtfs_1_1nameserver_1_1_server_collect.html">ServerCollect</a> *server, const time_t now, const bool force=false)</td></tr>
+<tr class="separator:ab59b9efa4fd42edb1536f9cb9aac9d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a851d80ccb572ae86d3c3754953161f19"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a851d80ccb572ae86d3c3754953161f19"></a>
+<a class="el" href="classtfs_1_1nameserver_1_1_block_collect.html">BlockCollect</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>elect_write_block</b> ()</td></tr>
+<tr class="separator:a851d80ccb572ae86d3c3754953161f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a452ff69484986216dcbdd5a5d673a78f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a452ff69484986216dcbdd5a5d673a78f"></a>
+<a class="el" href="classtfs_1_1nameserver_1_1_op_log_sync_manager.html">OpLogSyncManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>get_oplog_sync_mgr</b> ()</td></tr>
+<tr class="separator:a452ff69484986216dcbdd5a5d673a78f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82e600d2d58c5152b5bc68a61d1ce24b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a82e600d2d58c5152b5bc68a61d1ce24b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>update_block_info</b> (const <a class="el" href="structtfs_1_1common_1_1_block_info.html">common::BlockInfo</a> &amp;block_info, const uint64_t server, const time_t now, const bool addnew)</td></tr>
+<tr class="separator:a82e600d2d58c5152b5bc68a61d1ce24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27f58cd0211c120a2ba9a64499bcbbc1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27f58cd0211c120a2ba9a64499bcbbc1"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>repair</b> (const uint32_t block_id, const uint64_t server, const int32_t flag, const time_t now, std::string &amp;error_msg)</td></tr>
+<tr class="separator:a27f58cd0211c120a2ba9a64499bcbbc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad31de1a321b8816448c438c9991631ed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad31de1a321b8816448c438c9991631ed"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>scan</b> (<a class="el" href="structtfs_1_1common_1_1_s_s_m_scan_parameter.html">common::SSMScanParameter</a> &amp;stream)</td></tr>
+<tr class="separator:ad31de1a321b8816448c438c9991631ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e89093442d3f96cd6d6090c1a9ce563"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1e89093442d3f96cd6d6090c1a9ce563"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>dump_plan</b> (tbnet::DataBuffer &amp;stream)</td></tr>
+<tr class="separator:a1e89093442d3f96cd6d6090c1a9ce563"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada40a05cf2653f4ffe99cb8044e5e3d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada40a05cf2653f4ffe99cb8044e5e3d4"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>dump_plan</b> (void)</td></tr>
+<tr class="separator:ada40a05cf2653f4ffe99cb8044e5e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ed4635ed70db40efb43be574c6d07bb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ed4635ed70db40efb43be574c6d07bb"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>handle_task_complete</b> (<a class="el" href="classtfs_1_1common_1_1_base_packet.html">common::BasePacket</a> *msg)</td></tr>
+<tr class="separator:a5ed4635ed70db40efb43be574c6d07bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a734e03d7eafab36db954fd231b6e5c03"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a734e03d7eafab36db954fd231b6e5c03"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>interrupt</b> (const uint8_t interrupt, const time_t now)</td></tr>
+<tr class="separator:a734e03d7eafab36db954fd231b6e5c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38873e51afd7eba1e0f0674918a502c0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a38873e51afd7eba1e0f0674918a502c0"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>rm_block_from_ds</b> (const uint64_t server_id, const uint32_t block_id)</td></tr>
+<tr class="separator:a38873e51afd7eba1e0f0674918a502c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7012d5f271a8604c6fe30d2c8b5193ed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7012d5f271a8604c6fe30d2c8b5193ed"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>rm_block_from_ds</b> (const uint64_t server_id, const std::vector&lt; uint32_t &gt; &amp;block_ids)</td></tr>
+<tr class="separator:a7012d5f271a8604c6fe30d2c8b5193ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88d50c27519c868908df9386e7106820"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88d50c27519c868908df9386e7106820"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>get_alive_server</b> (common::VUINT64 &amp;servers)</td></tr>
+<tr class="separator:a88d50c27519c868908df9386e7106820"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad42c6566980096629c5d2a8cfe57c896"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad42c6566980096629c5d2a8cfe57c896"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>find_block_in_plan</b> (const uint32_t block_id)</td></tr>
+<tr class="separator:ad42c6566980096629c5d2a8cfe57c896"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d3dfa26c90880a2e71a3df95870c8ac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0d3dfa26c90880a2e71a3df95870c8ac"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>find_server_in_plan</b> (<a class="el" href="classtfs_1_1nameserver_1_1_server_collect.html">ServerCollect</a> *server)</td></tr>
+<tr class="separator:a0d3dfa26c90880a2e71a3df95870c8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cbd798007730897b11fc46ffab169e7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6cbd798007730897b11fc46ffab169e7"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>find_server_in_plan</b> (const std::vector&lt; <a class="el" href="classtfs_1_1nameserver_1_1_server_collect.html">ServerCollect</a> * &gt; &amp;servers, bool all_find, std::vector&lt; <a class="el" href="classtfs_1_1nameserver_1_1_server_collect.html">ServerCollect</a> * &gt; &amp;result)</td></tr>
+<tr class="separator:a6cbd798007730897b11fc46ffab169e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47d40379fd2f82e05de7fa15cef372f0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a47d40379fd2f82e05de7fa15cef372f0"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>touch</b> (const uint64_t server, const time_t now=time(NULL), const bool promote=true)</td></tr>
+<tr class="separator:a47d40379fd2f82e05de7fa15cef372f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a298f262606202c983456fe96f4218c2d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1nameserver_1_1_layout_manager.html#a298f262606202c983456fe96f4218c2d">touch</a> (<a class="el" href="classtfs_1_1nameserver_1_1_server_collect.html">ServerCollect</a> *server, const time_t now, const bool promote=false)</td></tr>
+<tr class="separator:a298f262606202c983456fe96f4218c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6c6fc58d91c7a846e4cdd62f89a56c8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae6c6fc58d91c7a846e4cdd62f89a56c8"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>open_helper_create_new_block_by_id</b> (const uint32_t block_id)</td></tr>
+<tr class="separator:ae6c6fc58d91c7a846e4cdd62f89a56c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a027b727d879230916ab8601c770daf3d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a027b727d879230916ab8601c770daf3d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>destroy_plan</b> ()</td></tr>
+<tr class="separator:a027b727d879230916ab8601c770daf3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+友元</h2></td></tr>
+<tr class="memitem:a6b4c820a0f4fe2bd25114740ba5cff74"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b4c820a0f4fe2bd25114740ba5cff74"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>ClientRequestServer</b></td></tr>
+<tr class="separator:a6b4c820a0f4fe2bd25114740ba5cff74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65863a729a6f033aad694e53a756fcbd"><td class="memTemplParams" colspan="2"><a class="anchor" id="a65863a729a6f033aad694e53a756fcbd"></a>
+template&lt;typename Strategy , typename ElectType &gt; </td></tr>
+<tr class="memitem:a65863a729a6f033aad694e53a756fcbd"><td class="memTemplItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memTemplItemRight" valign="bottom"><b>elect_ds</b> (Strategy &amp;strategy, ElectType op, <a class="el" href="classtfs_1_1nameserver_1_1_layout_manager.html">LayoutManager</a> &amp;meta, std::vector&lt; <a class="el" href="classtfs_1_1nameserver_1_1_server_collect.html">ServerCollect</a> * &gt; &amp;except, int32_t elect_count, bool check_server_in_plan, std::vector&lt; <a class="el" href="classtfs_1_1nameserver_1_1_server_collect.html">ServerCollect</a> * &gt; &amp;result)</td></tr>
+<tr class="separator:a65863a729a6f033aad694e53a756fcbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae52a0153ed3eed2c83857687f17c1a2"><td class="memTemplParams" colspan="2"><a class="anchor" id="aae52a0153ed3eed2c83857687f17c1a2"></a>
+template&lt;typename Strategy , typename ElectType &gt; </td></tr>
+<tr class="memitem:aae52a0153ed3eed2c83857687f17c1a2"><td class="memTemplItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memTemplItemRight" valign="bottom"><b>elect_ds</b> (Strategy &amp;strategy, ElectType op, <a class="el" href="classtfs_1_1nameserver_1_1_layout_manager.html">LayoutManager</a> &amp;meta, std::vector&lt; <a class="el" href="classtfs_1_1nameserver_1_1_server_collect.html">ServerCollect</a> * &gt; &amp;source, std::vector&lt; <a class="el" href="classtfs_1_1nameserver_1_1_server_collect.html">ServerCollect</a> * &gt; &amp;except, int32_t elect_count, bool check_server_in_plan, std::vector&lt; <a class="el" href="classtfs_1_1nameserver_1_1_server_collect.html">ServerCollect</a> * &gt; &amp;result)</td></tr>
+<tr class="separator:aae52a0153ed3eed2c83857687f17c1a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab66a68544cb77a619fa9a503d78e58b8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab66a68544cb77a619fa9a503d78e58b8"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>OpLogSyncManager::replay_helper_do_oplog</b> (const int32_t type, const char *const data, const int64_t length, int64_t &amp;pos, time_t now)</td></tr>
+<tr class="separator:ab66a68544cb77a619fa9a503d78e58b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a3c75a7f1a891d43d3ca8a89171d0b4e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tfs::nameserver::LayoutManager::add_server </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structtfs_1_1common_1_1_data_server_stat_info.html">common::DataServerStatInfo</a> &amp;&#160;</td>
+          <td class="paramname"><em>info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const time_t&#160;</td>
+          <td class="paramname"><em>now</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>isnew</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>dataserver join this nameserver, update dataserver of information and update global statistic information </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">info,:</td><td>dataserver of information </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">isnew,:</td><td>true if new dataserver </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">now,:</td><td>current time </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>return TFS_SUCCESS if success, otherwise failed </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="afdcb4b055f269b486fd751841d670bac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tfs::nameserver::LayoutManager::remove_server </td>
+          <td>(</td>
+          <td class="paramtype">const uint64_t&#160;</td>
+          <td class="paramname"><em>server</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const time_t&#160;</td>
+          <td class="paramname"><em>now</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>dataserver exit, when nameserver cannot keep touch with dataserver. release all relation of blocks belongs to it </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">server,:</td><td>dataserver's id (ip&amp;port) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">now</td><td>: current time </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a298f262606202c983456fe96f4218c2d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tfs::nameserver::LayoutManager::touch </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtfs_1_1nameserver_1_1_server_collect.html">ServerCollect</a> *&#160;</td>
+          <td class="paramname"><em>server</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const time_t&#160;</td>
+          <td class="paramname"><em>now</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>promote</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>dataserver is the need to add testing of new block </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">server,:</td><td>dataserver object </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">promote,:</td><td>true: check writable block, false: no check </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>: return 0 if no need add, otherwise need block count </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a86654ec4ca7b91cbf10948c1f432940b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tfs::nameserver::LayoutManager::update_relation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtfs_1_1nameserver_1_1_server_collect.html">ServerCollect</a> *&#160;</td>
+          <td class="paramname"><em>server</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structtfs_1_1common_1_1_block_info.html">common::BlockInfo</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>blocks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EXPIRE_BLOCK_LIST &amp;&#160;</td>
+          <td class="paramname"><em>expires</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const time_t&#160;</td>
+          <td class="paramname"><em>now</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>dsataserver start, send heartbeat message to nameserver. update all relations of blocks belongs to it </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dsInfo,:</td><td>dataserver system info , like capacity, load, etc.. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">blocks,:</td><td>data blocks' info which belongs to dataserver. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">expires,:</td><td>need expire blocks </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>success or failure </dd></dl>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>E:/tfs-1.4/src/nameserver/<a class="el" href="layout__manager_8h_source.html">layout_manager.h</a></li>
+<li>E:/tfs-1.4/src/nameserver/layout_manager.cpp</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2013年 七月 2日 星期二 08:20:22 , 为 tfs-doc使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.4
+</small></address>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" href="$classtfs_1_1dataserver_1_1_sync_backup.html" title="tfs::dataserver::SyncBackup" alt="" coords="6,45,191,72"/>
+<area shape="rect" id="node2" href="$classtfs_1_1dataserver_1_1_nfs_mirror_backup.html" title="tfs::dataserver::NfsMirror\lBackup" alt="" coords="240,5,403,46"/>
+<area shape="rect" id="node3" href="$classtfs_1_1dataserver_1_1_tfs_mirror_backup.html" title="tfs::dataserver::TfsMirror\lBackup" alt="" coords="241,70,402,111"/>
+</map>

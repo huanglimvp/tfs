@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>tfs-doc: E:/tfs-1.4/src/nameserver/heart_manager.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">tfs-doc
+   &#160;<span id="projectnumber">1.4</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.4 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_885cc87fac2d91e269af0a5a959fa5f6.html">E:</a></li><li class="navelem"><a class="el" href="dir_93c07fd6ac3b2ca179964d03efbf7295.html">tfs-1.4</a></li><li class="navelem"><a class="el" href="dir_bf76bb88685cd7c616fcba3f04cbc5e1.html">src</a></li><li class="navelem"><a class="el" href="dir_84f6755860803652b2ebf2c1d7fa06d8.html">nameserver</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">heart_manager.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * (C) 2007-2010 Alibaba Group Holding Limited.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This program is free software; you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * it under the terms of the GNU General Public License version 2 as</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * published by the Free Software Foundation.</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * Version: $Id: heart_manager.h 344 2011-05-26 01:17:38Z duanfei@taobao.com $</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * Authors:</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *   duolong &lt;duolong@taobao.com&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> *      - initial release</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> *   qushan&lt;qushan@taobao.com&gt; </span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> *      - modify 2009-03-27</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> *   duanfei &lt;duanfei@taobao.com&gt; </span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *      - modify 2010-04-23</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#ifndef TFS_NAMESERVER_HEART_MANAGEMENT_</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define TFS_NAMESERVER_HEART_MANAGEMENT_</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &lt;Timer.h&gt;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;layout_manager.h&quot;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;message/message_factory.h&quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">namespace </span>tfs</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keyword">namespace </span>nameserver</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  {</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="code" href="classtfs_1_1nameserver_1_1_heart_management.html">   31</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classtfs_1_1nameserver_1_1_heart_management.html">HeartManagement</a> : <span class="keyword">public</span> tbnet::IPacketQueueHandler</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      <span class="keyword">explicit</span> <a class="code" href="classtfs_1_1nameserver_1_1_heart_management.html">HeartManagement</a>(<a class="code" href="classtfs_1_1nameserver_1_1_layout_manager.html">LayoutManager</a>&amp; manager);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      <span class="keyword">virtual</span> ~<a class="code" href="classtfs_1_1nameserver_1_1_heart_management.html">HeartManagement</a>();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;      <span class="keywordtype">int</span> initialize(<span class="keyword">const</span> int32_t thread_count, <span class="keyword">const</span> int32_t max_queue_size);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;      <span class="keywordtype">void</span> wait_for_shut_down();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;      <span class="keywordtype">void</span> destroy();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;      <span class="keywordtype">int</span> <a class="code" href="classtfs_1_1nameserver_1_1_heart_management.html#abd19525a19e569d792fee3ebc99a4ab1">push</a>(<a class="code" href="classtfs_1_1common_1_1_base_packet.html">common::BasePacket</a>* msg);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">bool</span> handlePacketQueue(tbnet::Packet* packet, <span class="keywordtype">void</span> *args);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      DISALLOW_COPY_AND_ASSIGN(<a class="code" href="classtfs_1_1nameserver_1_1_heart_management.html">HeartManagement</a>);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;      <span class="keywordtype">int</span> keepalive(tbnet::Packet* packet);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;      <a class="code" href="classtfs_1_1nameserver_1_1_layout_manager.html">LayoutManager</a>&amp; meta_mgr_;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;      int32_t max_queue_size_;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;      tbnet::PacketQueueThread work_thread_;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    };</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="code" href="classtfs_1_1nameserver_1_1_check_owner_is_master_timer_task.html">   50</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classtfs_1_1nameserver_1_1_check_owner_is_master_timer_task.html">CheckOwnerIsMasterTimerTask</a>: <span class="keyword">public</span> tbutil::TimerTask</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;      <span class="keyword">explicit</span> <a class="code" href="classtfs_1_1nameserver_1_1_check_owner_is_master_timer_task.html">CheckOwnerIsMasterTimerTask</a>(<a class="code" href="classtfs_1_1nameserver_1_1_layout_manager.html">LayoutManager</a>* mm);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;      <span class="keyword">virtual</span> ~<a class="code" href="classtfs_1_1nameserver_1_1_check_owner_is_master_timer_task.html">CheckOwnerIsMasterTimerTask</a>()</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;      {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      }</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">void</span> runTimerTask();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;      DISALLOW_COPY_AND_ASSIGN( <a class="code" href="classtfs_1_1nameserver_1_1_check_owner_is_master_timer_task.html">CheckOwnerIsMasterTimerTask</a>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;      <span class="keywordtype">void</span> master_lost_vip(<a class="code" href="structtfs_1_1nameserver_1_1_ns_runtime_global_information.html">NsRuntimeGlobalInformation</a>&amp; ngi);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;      <span class="keywordtype">void</span> check_when_slave_hold_vip(<a class="code" href="structtfs_1_1nameserver_1_1_ns_runtime_global_information.html">NsRuntimeGlobalInformation</a>&amp; ngi);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      <span class="keywordtype">void</span> ns_force_modify_other_side();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      <span class="keywordtype">void</span> ns_switch(<span class="keyword">const</span> NsStatus&amp; other_side_status, <span class="keyword">const</span> NsSyncDataFlag&amp; ns_sync_flag);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;      <a class="code" href="classtfs_1_1nameserver_1_1_layout_manager.html">LayoutManager</a>* meta_mgr_;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    };</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keyword">typedef</span> tbutil::Handle&lt;CheckOwnerIsMasterTimerTask&gt; CheckOwnerIsMasterTimerTaskPtr;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="code" href="classtfs_1_1nameserver_1_1_master_heart_timer_task.html">   69</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classtfs_1_1nameserver_1_1_master_heart_timer_task.html">MasterHeartTimerTask</a>: <span class="keyword">public</span> tbutil::TimerTask</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      <span class="keyword">explicit</span> <a class="code" href="classtfs_1_1nameserver_1_1_master_heart_timer_task.html">MasterHeartTimerTask</a>(<a class="code" href="classtfs_1_1nameserver_1_1_layout_manager.html">LayoutManager</a>* mm);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      <span class="keyword">virtual</span> ~<a class="code" href="classtfs_1_1nameserver_1_1_master_heart_timer_task.html">MasterHeartTimerTask</a>()</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;      {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;      }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">void</span> runTimerTask();</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      DISALLOW_COPY_AND_ASSIGN(<a class="code" href="classtfs_1_1nameserver_1_1_master_heart_timer_task.html">MasterHeartTimerTask</a>);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      <a class="code" href="classtfs_1_1nameserver_1_1_layout_manager.html">LayoutManager</a>* meta_mgr_;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    };</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keyword">typedef</span> tbutil::Handle&lt;MasterHeartTimerTask&gt; MasterHeartTimerTaskPtr;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="code" href="classtfs_1_1nameserver_1_1_slave_heart_timer_task.html">   84</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classtfs_1_1nameserver_1_1_slave_heart_timer_task.html">SlaveHeartTimerTask</a>: <span class="keyword">public</span> tbutil::TimerTask</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;      <a class="code" href="classtfs_1_1nameserver_1_1_slave_heart_timer_task.html">SlaveHeartTimerTask</a>(<a class="code" href="classtfs_1_1nameserver_1_1_layout_manager.html">LayoutManager</a>* mm, tbutil::TimerPtr&amp; timer);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;      <span class="keyword">virtual</span> ~<a class="code" href="classtfs_1_1nameserver_1_1_slave_heart_timer_task.html">SlaveHeartTimerTask</a>()</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;      {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;      }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">void</span> runTimerTask();</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;      DISALLOW_COPY_AND_ASSIGN(<a class="code" href="classtfs_1_1nameserver_1_1_slave_heart_timer_task.html">SlaveHeartTimerTask</a>);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;      <a class="code" href="classtfs_1_1nameserver_1_1_layout_manager.html">LayoutManager</a>* meta_mgr_;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;      tbutil::TimerPtr&amp; timer_;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    };</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keyword">typedef</span> tbutil::Handle&lt;SlaveHeartTimerTask&gt; SlaveHeartTimerTaskPtr;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="code" href="classtfs_1_1nameserver_1_1_master_and_slave_heart_manager.html">  100</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classtfs_1_1nameserver_1_1_master_and_slave_heart_manager.html">MasterAndSlaveHeartManager</a>: <span class="keyword">public</span> tbnet::IPacketQueueHandler</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;      <a class="code" href="classtfs_1_1nameserver_1_1_master_and_slave_heart_manager.html">MasterAndSlaveHeartManager</a>(<a class="code" href="classtfs_1_1nameserver_1_1_layout_manager.html">LayoutManager</a>* mm, tbutil::TimerPtr&amp; timer);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;      <span class="keyword">virtual</span> ~<a class="code" href="classtfs_1_1nameserver_1_1_master_and_slave_heart_manager.html">MasterAndSlaveHeartManager</a>();</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      <span class="keywordtype">int</span> initialize();</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;      <span class="keywordtype">int</span> wait_for_shut_down();</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      <span class="keywordtype">int</span> destroy();</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;      <span class="keywordtype">int</span> push(<a class="code" href="classtfs_1_1common_1_1_base_packet.html">common::BasePacket</a>* message, <span class="keyword">const</span> int32_t max_queue_size = 0, <span class="keyword">const</span> <span class="keywordtype">bool</span> block = <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">bool</span> handlePacketQueue(tbnet::Packet *packet, <span class="keywordtype">void</span> *args);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;      <span class="keywordtype">int</span> do_master_msg(<a class="code" href="classtfs_1_1common_1_1_base_packet.html">common::BasePacket</a>* message, <span class="keywordtype">void</span>* args);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;      <span class="keywordtype">int</span> do_slave_msg(<a class="code" href="classtfs_1_1common_1_1_base_packet.html">common::BasePacket</a>* message, <span class="keywordtype">void</span>* args);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;      <span class="keywordtype">int</span> do_heartbeat_and_ns_msg(<a class="code" href="classtfs_1_1common_1_1_base_packet.html">common::BasePacket</a>* message, <span class="keywordtype">void</span>* args);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      DISALLOW_COPY_AND_ASSIGN( <a class="code" href="classtfs_1_1nameserver_1_1_master_and_slave_heart_manager.html">MasterAndSlaveHeartManager</a>);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;      <a class="code" href="classtfs_1_1nameserver_1_1_layout_manager.html">LayoutManager</a>* meta_mgr_;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;      tbutil::TimerPtr&amp; timer_;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      tbnet::PacketQueueThread work_thread_;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    };</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  }</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="preprocessor">#endif </span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="preprocessor"></span></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2013年 七月 2日 星期二 08:20:17 , 为 tfs-doc使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.4
+</small></address>
+</body>
+</html>

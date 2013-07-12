@@ -1,0 +1,7 @@
+<map id="tfs::rcserver::ResourceManager" name="tfs::rcserver::ResourceManager">
+<area shape="rect" id="node2" href="$classtfs_1_1rcserver_1_1_i_resource_manager.html" title="tfs::rcserver::IResource\lManager" alt="" coords="673,5,828,46"/>
+<area shape="rect" id="node3" href="$classtfs_1_1rcserver_1_1_database_helper.html" title="tfs::rcserver::DatabaseHelper" alt="" coords="5,92,195,119"/>
+<area shape="rect" id="node5" href="$classtfs_1_1rcserver_1_1_i_resource.html" title="tfs::rcserver::IResource" alt="" coords="349,121,504,148"/>
+<area shape="rect" id="node4" href="$classtfs_1_1rcserver_1_1_base_resource.html" title="tfs::rcserver::BaseResource" alt="" coords="659,121,842,148"/>
+<area shape="rect" id="node6" href="$classtfs_1_1rcserver_1_1_app_resource.html" title="tfs::rcserver::AppResource" alt="" coords="663,172,838,199"/>
+</map>

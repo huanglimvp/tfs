@@ -1,0 +1,4 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" href="$classtfs_1_1client_1_1_segment_container.html" title="tfs::client::SegmentContainer\l\&lt; std::vector\&lt; common::SegmentInfo \&gt; \&gt;" alt="" coords="6,5,266,46"/>
+<area shape="rect" id="node2" href="$classtfs_1_1client_1_1_gc_file.html" title="tfs::client::GcFile" alt="" coords="315,12,437,39"/>
+</map>

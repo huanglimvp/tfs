@@ -1,0 +1,7 @@
+<map id="tfs::message::CloseFileMessage" name="tfs::message::CloseFileMessage">
+<area shape="rect" id="node2" href="$classtfs_1_1common_1_1_base_packet.html" title="tfs::common::BasePacket" alt="" coords="252,31,425,57"/>
+<area shape="rect" id="node4" href="$classtfs_1_1common_1_1_stream.html" title="tfs::common::Stream" alt="" coords="5,56,149,83"/>
+<area shape="rect" id="node5" href="$structtfs_1_1common_1_1_block_info.html" title="tfs::common::BlockInfo" alt="" coords="261,81,416,108"/>
+<area shape="rect" id="node6" href="$structtfs_1_1common_1_1_file_info.html" title="tfs::common::FileInfo" alt="" coords="267,132,410,159"/>
+<area shape="rect" id="node7" href="$structtfs_1_1common_1_1_close_file_info.html" title="tfs::common::CloseFileInfo" alt="" coords="251,183,427,209"/>
+</map>

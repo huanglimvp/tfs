@@ -1,0 +1,19 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$class_app_resource_test.html" title="AppResourceTest" alt="" coords="119,5,244,32"/>
+<area shape="rect" id="node3" href="$class_base_resource_test.html" title="BaseResourceTest" alt="" coords="115,56,247,83"/>
+<area shape="rect" id="node4" href="$class_bitmap_test.html" title="BitmapTest" alt="" coords="137,107,225,133"/>
+<area shape="rect" id="node5" href="$class_block_file_manager_test.html" title="BlockFileManagerTest" alt="" coords="106,157,257,184"/>
+<area shape="rect" id="node6" href="$class_data_handle_test.html" title="DataHandleTest" alt="" coords="124,208,239,235"/>
+<area shape="rect" id="node7" href="$class_file_formater_test.html" title="FileFormaterTest" alt="" coords="121,259,241,285"/>
+<area shape="rect" id="node8" href="$class_file_operation_test.html" title="FileOperationTest" alt="" coords="119,309,243,336"/>
+<area shape="rect" id="node9" href="$class_meta_test.html" title="MetaTest" alt="" coords="143,360,219,387"/>
+<area shape="rect" id="node10" href="$class_m_map_file_operation_test.html" title="MMapFileOperationTest" alt="" coords="101,411,261,437"/>
+<area shape="rect" id="node11" href="$class_m_map_file_test.html" title="MMapFileTest" alt="" coords="129,461,233,488"/>
+<area shape="rect" id="node12" href="$class_physical_block_test.html" title="PhysicalBlockTest" alt="" coords="116,512,247,539"/>
+<area shape="rect" id="node13" href="$class_resource_manager_test.html" title="ResourceManagerTest" alt="" coords="105,563,257,589"/>
+<area shape="rect" id="node14" href="$class_session_manager_test.html" title="SessionManagerTest" alt="" coords="109,613,253,640"/>
+<area shape="rect" id="node15" href="$class_super_block_impl_test.html" title="SuperBlockImplTest" alt="" coords="112,664,251,691"/>
+<area shape="rect" id="node16" href="$class_test_index_handle.html" title="TestIndexHandle" alt="" coords="122,715,241,741"/>
+<area shape="rect" id="node17" href="$class_test_logic_block.html" title="TestLogicBlock" alt="" coords="126,765,237,792"/>
+<area shape="rect" id="node18" href="$class_test_serialization.html" title="TestSerialization" alt="" coords="122,816,241,843"/>
+</map>

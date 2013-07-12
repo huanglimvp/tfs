@@ -1,0 +1,769 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>tfs-doc: tfs::common::BaseService类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">tfs-doc
+   &#160;<span id="projectnumber">1.4</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.4 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>tfs</b></li><li class="navelem"><b>common</b></li><li class="navelem"><a class="el" href="classtfs_1_1common_1_1_base_service.html">BaseService</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="classtfs_1_1common_1_1_base_service-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">tfs::common::BaseService类 参考<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+类 tfs::common::BaseService 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classtfs_1_1common_1_1_base_service__inherit__graph.png" border="0" usemap="#tfs_1_1common_1_1_base_service_inherit__map" alt="Inheritance graph"/></div>
+<map name="tfs_1_1common_1_1_base_service_inherit__map" id="tfs_1_1common_1_1_base_service_inherit__map">
+<area shape="rect" id="node5" href="class_test_service.html" title="TestService" alt="" coords="490,5,579,32"/><area shape="rect" id="node6" href="classtfs_1_1adminserver_1_1_admin_server.html" title="tfs::adminserver::AdminServer" alt="" coords="437,56,632,83"/><area shape="rect" id="node7" href="classtfs_1_1dataserver_1_1_data_service.html" title="tfs::dataserver::DataService" alt="" coords="445,107,625,133"/><area shape="rect" id="node8" href="classtfs_1_1mock_1_1_mock_data_service.html" title="tfs::mock::MockDataService" alt="" coords="442,157,627,184"/><area shape="rect" id="node9" href="classtfs_1_1nameserver_1_1_name_server.html" title="tfs::nameserver::NameServer" alt="" coords="441,208,629,235"/><area shape="rect" id="node10" href="classtfs_1_1rcserver_1_1_rc_service.html" title="tfs::rcserver::RcService" alt="" coords="457,259,612,285"/><area shape="rect" id="node2" href="classtfs_1_1common_1_1_base_main.html" title="tfs::common::BaseMain" alt="" coords="5,81,165,108"/></map>
+<center><span class="legend">[<a href="graph_legend.html">图例</a>]</span></center></div>
+<div class="dynheader">
+tfs::common::BaseService 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classtfs_1_1common_1_1_base_service__coll__graph.png" border="0" usemap="#tfs_1_1common_1_1_base_service_coll__map" alt="Collaboration graph"/></div>
+<map name="tfs_1_1common_1_1_base_service_coll__map" id="tfs_1_1common_1_1_base_service_coll__map">
+<area shape="rect" id="node2" href="classtfs_1_1common_1_1_base_main.html" title="tfs::common::BaseMain" alt="" coords="5,5,165,32"/></map>
+<center><span class="legend">[<a href="graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a29dc94366ad27430b25d8e5133af7331"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29dc94366ad27430b25d8e5133af7331"></a>
+<a class="el" href="classtfs_1_1common_1_1_base_packet_factory.html">BasePacketFactory</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>get_packet_factory</b> ()</td></tr>
+<tr class="separator:a29dc94366ad27430b25d8e5133af7331"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c41dcfb8f83bd6c783186141a0ee354"><td class="memItemLeft" align="right" valign="top">tbnet::IPacketStreamer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#a1c41dcfb8f83bd6c783186141a0ee354">get_packet_streamer</a> ()</td></tr>
+<tr class="separator:a1c41dcfb8f83bd6c783186141a0ee354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0fedc0daea5e4349b547fd81e367482"><td class="memItemLeft" align="right" valign="top">tbnet::Transport &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#ae0fedc0daea5e4349b547fd81e367482">get_transport</a> () const </td></tr>
+<tr class="separator:ae0fedc0daea5e4349b547fd81e367482"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a265cf8a21bfb5baf865534a2873e56e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#a265cf8a21bfb5baf865534a2873e56e9">destroy</a> ()</td></tr>
+<tr class="separator:a265cf8a21bfb5baf865534a2873e56e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44652bd9b53dcce0c1c0e251a52a03f2"><td class="memItemLeft" align="right" valign="top">tbutil::TimerPtr &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#a44652bd9b53dcce0c1c0e251a52a03f2">get_timer</a> ()</td></tr>
+<tr class="separator:a44652bd9b53dcce0c1c0e251a52a03f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac600b9b1b28973a72ce054de757c320c"><td class="memItemLeft" align="right" valign="top">virtual <br class="typebreak"/>
+tbnet::IPacketHandler::HPRetCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#ac600b9b1b28973a72ce054de757c320c">handlePacket</a> (tbnet::Connection *connection, tbnet::Packet *packet)</td></tr>
+<tr class="separator:ac600b9b1b28973a72ce054de757c320c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f6407e3da6fef8b09a1724e817ea4e0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#a4f6407e3da6fef8b09a1724e817ea4e0">handlePacketQueue</a> (tbnet::Packet *packet, void *args)</td></tr>
+<tr class="separator:a4f6407e3da6fef8b09a1724e817ea4e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea399e0bc5052c87f83736b31c37e4e2"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#aea399e0bc5052c87f83736b31c37e4e2">get_listen_port</a> () const </td></tr>
+<tr class="separator:aea399e0bc5052c87f83736b31c37e4e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcc0a7da6fa5e668bac074a3471bb33e"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#afcc0a7da6fa5e668bac074a3471bb33e">initialize</a> (int, char *[])</td></tr>
+<tr class="separator:afcc0a7da6fa5e668bac074a3471bb33e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a646873d9c5485e497d344e01413d28c6"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#a646873d9c5485e497d344e01413d28c6">destroy_service</a> ()</td></tr>
+<tr class="separator:a646873d9c5485e497d344e01413d28c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae34c402e5c600469a2b4874e051e9a08"><td class="memItemLeft" align="right" valign="top">virtual tbnet::IPacketStreamer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#ae34c402e5c600469a2b4874e051e9a08">create_packet_streamer</a> ()=0</td></tr>
+<tr class="separator:ae34c402e5c600469a2b4874e051e9a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f6c8da03d00c7e15e657c394a4fb06c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#a1f6c8da03d00c7e15e657c394a4fb06c">destroy_packet_streamer</a> (tbnet::IPacketStreamer *streamer)=0</td></tr>
+<tr class="separator:a1f6c8da03d00c7e15e657c394a4fb06c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18d154ec426e8661c5abc00c2abb5d12"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classtfs_1_1common_1_1_base_packet_factory.html">BasePacketFactory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#a18d154ec426e8661c5abc00c2abb5d12">create_packet_factory</a> ()=0</td></tr>
+<tr class="separator:a18d154ec426e8661c5abc00c2abb5d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbb167f3a123e75fd1516ca18bff2e5a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#abbb167f3a123e75fd1516ca18bff2e5a">destroy_packet_factory</a> (<a class="el" href="classtfs_1_1common_1_1_base_packet_factory.html">BasePacketFactory</a> *factory)=0</td></tr>
+<tr class="separator:abbb167f3a123e75fd1516ca18bff2e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cfd6ef69f6c4ea3619fbd6f66529695"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#a2cfd6ef69f6c4ea3619fbd6f66529695">async_callback</a> (<a class="el" href="classtfs_1_1common_1_1_new_client.html">NewClient</a> *client, void *args)</td></tr>
+<tr class="separator:a2cfd6ef69f6c4ea3619fbd6f66529695"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63066d7dd95290e3dd2f7c624c5bd344"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#a63066d7dd95290e3dd2f7c624c5bd344">push</a> (<a class="el" href="classtfs_1_1common_1_1_base_packet.html">BasePacket</a> *packet)</td></tr>
+<tr class="separator:a63066d7dd95290e3dd2f7c624c5bd344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af918e63391f6d6e0df038b6ea2aeedd6"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#af918e63391f6d6e0df038b6ea2aeedd6">get_port</a> () const </td></tr>
+<tr class="separator:af918e63391f6d6e0df038b6ea2aeedd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4de1a235c89a613d3819f5d5367c0bb5"><td class="memItemLeft" align="right" valign="top">const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#a4de1a235c89a613d3819f5d5367c0bb5">get_dev</a> () const </td></tr>
+<tr class="separator:a4de1a235c89a613d3819f5d5367c0bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63d3b6170662639d2fe53bf1b57e96bf"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#a63d3b6170662639d2fe53bf1b57e96bf">get_work_thread_count</a> () const </td></tr>
+<tr class="separator:a63d3b6170662639d2fe53bf1b57e96bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1746ac2d9c8e324d76f2ac4e32fc532"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#af1746ac2d9c8e324d76f2ac4e32fc532">get_work_queue_size</a> () const </td></tr>
+<tr class="separator:af1746ac2d9c8e324d76f2ac4e32fc532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2982a3bd0918c3a3f0b228defac8f22"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#ac2982a3bd0918c3a3f0b228defac8f22">get_ip_addr</a> () const </td></tr>
+<tr class="separator:ac2982a3bd0918c3a3f0b228defac8f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classtfs_1_1common_1_1_base_main"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classtfs_1_1common_1_1_base_main')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="classtfs_1_1common_1_1_base_main.html">tfs::common::BaseMain</a></td></tr>
+<tr class="memitem:ad20029ed83dbcebbe4476f6d0862fb8f inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad20029ed83dbcebbe4476f6d0862fb8f"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> (int argc, char *argv[])</td></tr>
+<tr class="separator:ad20029ed83dbcebbe4476f6d0862fb8f inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d9442f243d99f5efdac3721124f094c inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d9442f243d99f5efdac3721124f094c"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>handle_interrupt</b> (int sig)</td></tr>
+<tr class="separator:a6d9442f243d99f5efdac3721124f094c inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab989b348b28212a3e5d3f4646801a08 inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_main.html#aab989b348b28212a3e5d3f4646801a08">get_work_dir</a> () const </td></tr>
+<tr class="separator:aab989b348b28212a3e5d3f4646801a08 inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c4f63369eb1ae15253ccbe39bbbe4ca inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_main.html#a8c4f63369eb1ae15253ccbe39bbbe4ca">get_log_file_level</a> () const </td></tr>
+<tr class="separator:a8c4f63369eb1ae15253ccbe39bbbe4ca inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05cb114a5455487739fa00fb12a031be inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_main.html#a05cb114a5455487739fa00fb12a031be">get_log_path</a> () const </td></tr>
+<tr class="separator:a05cb114a5455487739fa00fb12a031be inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c141e6979c827210644d7787cc5c023 inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_main.html#a1c141e6979c827210644d7787cc5c023">get_log_file_size</a> () const </td></tr>
+<tr class="separator:a1c141e6979c827210644d7787cc5c023 inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae619d3a9435584d6c79e8ae038543ebf inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_main.html#ae619d3a9435584d6c79e8ae038543ebf">get_log_file_count</a> () const </td></tr>
+<tr class="separator:ae619d3a9435584d6c79e8ae038543ebf inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a602270ab9f25f6ad65dc732f290562e9 inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a602270ab9f25f6ad65dc732f290562e9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>stop</b> ()</td></tr>
+<tr class="separator:a602270ab9f25f6ad65dc732f290562e9 inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae95fa5c2ce812c5eadc5849aff5acb64 inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_main.html#ae95fa5c2ce812c5eadc5849aff5acb64">parse_common_line_args</a> (int argc, char *argv[], std::string &amp;errmsg)</td></tr>
+<tr class="separator:ae95fa5c2ce812c5eadc5849aff5acb64 inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff3f5b9bd5fd775b4cfff7e2cf6e4e66 inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_main.html#aff3f5b9bd5fd775b4cfff7e2cf6e4e66">get_log_file_path</a> ()</td></tr>
+<tr class="separator:aff3f5b9bd5fd775b4cfff7e2cf6e4e66 inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dec2f41410affeb27296a7c4c58c77d inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_main.html#a1dec2f41410affeb27296a7c4c58c77d">get_pid_file_path</a> ()</td></tr>
+<tr class="separator:a1dec2f41410affeb27296a7c4c58c77d inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21a2adc4b58480f0399fcf3051a0dbdc inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a21a2adc4b58480f0399fcf3051a0dbdc"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>help</b> ()</td></tr>
+<tr class="separator:a21a2adc4b58480f0399fcf3051a0dbdc inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba0aba0c9603ba197ba9ff6583ec64e5 inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba0aba0c9603ba197ba9ff6583ec64e5"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>version</b> ()</td></tr>
+<tr class="separator:aba0aba0c9603ba197ba9ff6583ec64e5 inherit pub_methods_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a04dc4b881d865979bec0ca45baa9aea2"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtfs_1_1common_1_1_base_service.html#a04dc4b881d865979bec0ca45baa9aea2">golbal_async_callback_func</a> (<a class="el" href="classtfs_1_1common_1_1_new_client.html">NewClient</a> *client, void *args)</td></tr>
+<tr class="separator:a04dc4b881d865979bec0ca45baa9aea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_classtfs_1_1common_1_1_base_main"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classtfs_1_1common_1_1_base_main')"><img src="closed.png" alt="-"/>&#160;静态 Public 成员函数 继承自 <a class="el" href="classtfs_1_1common_1_1_base_main.html">tfs::common::BaseMain</a></td></tr>
+<tr class="memitem:a4dc785b893fb118bdd5dcb756e19b9ba inherit pub_static_methods_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4dc785b893fb118bdd5dcb756e19b9ba"></a>
+static <a class="el" href="classtfs_1_1common_1_1_base_main.html">BaseMain</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>instance</b> ()</td></tr>
+<tr class="separator:a4dc785b893fb118bdd5dcb756e19b9ba inherit pub_static_methods_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a4ea704bd35a7e58a10d1162ca9d32c70"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4ea704bd35a7e58a10d1162ca9d32c70"></a>
+tbnet::Transport&#160;</td><td class="memItemRight" valign="bottom"><b>transport_</b></td></tr>
+<tr class="separator:a4ea704bd35a7e58a10d1162ca9d32c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af751d08d4c9523db964dbc16251cb3d8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af751d08d4c9523db964dbc16251cb3d8"></a>
+tbnet::PacketQueueThread&#160;</td><td class="memItemRight" valign="bottom"><b>main_workers_</b></td></tr>
+<tr class="separator:af751d08d4c9523db964dbc16251cb3d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaeb0c6a58177febf929a0dca61ac2cf2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaeb0c6a58177febf929a0dca61ac2cf2"></a>
+int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>work_queue_size_</b></td></tr>
+<tr class="separator:aaeb0c6a58177febf929a0dca61ac2cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+额外继承的成员函数</h2></td></tr>
+<tr class="inherit_header pub_attribs_classtfs_1_1common_1_1_base_main"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classtfs_1_1common_1_1_base_main')"><img src="closed.png" alt="-"/>&#160;Public 属性 继承自 <a class="el" href="classtfs_1_1common_1_1_base_main.html">tfs::common::BaseMain</a></td></tr>
+<tr class="memitem:a639730053aeaf2df37714536b922bbfd inherit pub_attribs_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a639730053aeaf2df37714536b922bbfd"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>stop_</b></td></tr>
+<tr class="separator:a639730053aeaf2df37714536b922bbfd inherit pub_attribs_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a037065799e6448585cb3c842c7753e36 inherit pub_attribs_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a037065799e6448585cb3c842c7753e36"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>config_file_</b></td></tr>
+<tr class="separator:a037065799e6448585cb3c842c7753e36 inherit pub_attribs_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a293667f1f503fbf28cb96a0b16869673 inherit pub_attribs_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a293667f1f503fbf28cb96a0b16869673"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>log_file_path_</b></td></tr>
+<tr class="separator:a293667f1f503fbf28cb96a0b16869673 inherit pub_attribs_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6df2fca5b24ec41c2a607247495c8096 inherit pub_attribs_classtfs_1_1common_1_1_base_main"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6df2fca5b24ec41c2a607247495c8096"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>pid_file_path_</b></td></tr>
+<tr class="separator:a6df2fca5b24ec41c2a607247495c8096 inherit pub_attribs_classtfs_1_1common_1_1_base_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a2cfd6ef69f6c4ea3619fbd6f66529695"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tfs::common::BaseService::async_callback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtfs_1_1common_1_1_new_client.html">NewClient</a> *&#160;</td>
+          <td class="paramname"><em>client</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>async callback function </p>
+
+</div>
+</div>
+<a class="anchor" id="a18d154ec426e8661c5abc00c2abb5d12"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classtfs_1_1common_1_1_base_packet_factory.html">BasePacketFactory</a>* tfs::common::BaseService::create_packet_factory </td>
+          <td>(</td>
+          <td class="paramname">)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>create the packet factory, this is used to create packet </p>
+
+<p>在 <a class="el" href="class_test_service.html#a86a71f5584f00b5825e1276bee14d71d">TestService</a>, <a class="el" href="classtfs_1_1adminserver_1_1_admin_server.html#ae09dc76a1ed679b79ecc160ae5d87c8f">tfs::adminserver::AdminServer</a>, <a class="el" href="classtfs_1_1mock_1_1_mock_data_service.html#af3cbc229683ba6aeb07de93a83a95fc7">tfs::mock::MockDataService</a>, <a class="el" href="classtfs_1_1dataserver_1_1_data_service.html#a149c1ec365abba52ad394152c7f08972">tfs::dataserver::DataService</a>, <a class="el" href="classtfs_1_1nameserver_1_1_name_server.html#a13badf64c09bd8128e20aff8750a7e4f">tfs::nameserver::NameServer</a> , 以及 <a class="el" href="classtfs_1_1rcserver_1_1_rc_service.html#a09de6c82c246f1e7cbb18ef3c166c226">tfs::rcserver::RcService</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae34c402e5c600469a2b4874e051e9a08"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tbnet::IPacketStreamer* tfs::common::BaseService::create_packet_streamer </td>
+          <td>(</td>
+          <td class="paramname">)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>create the packet streamer, this is used to create packet according to packet code </p>
+
+<p>在 <a class="el" href="class_test_service.html#a5a5677d2a223a606318527a35dc3de48">TestService</a>, <a class="el" href="classtfs_1_1adminserver_1_1_admin_server.html#ae1832d24e147515f996965fb781c4eed">tfs::adminserver::AdminServer</a>, <a class="el" href="classtfs_1_1mock_1_1_mock_data_service.html#aca9d4e5ee04ee6ecc887359659d6c899">tfs::mock::MockDataService</a>, <a class="el" href="classtfs_1_1dataserver_1_1_data_service.html#aeb59353c66be02e51290b7dbfe9cc97e">tfs::dataserver::DataService</a>, <a class="el" href="classtfs_1_1nameserver_1_1_name_server.html#a098f5649be509dadeaa72b9d72eb7fe3">tfs::nameserver::NameServer</a> , 以及 <a class="el" href="classtfs_1_1rcserver_1_1_rc_service.html#a61c2b242160add9f950cc07d95b12c16">tfs::rcserver::RcService</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a265cf8a21bfb5baf865534a2873e56e9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tfs::common::BaseService::destroy </td>
+          <td>(</td>
+          <td class="paramname">)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>stop this service </p>
+
+<p>实现了 <a class="el" href="classtfs_1_1common_1_1_base_main.html">tfs::common::BaseMain</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abbb167f3a123e75fd1516ca18bff2e5a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void tfs::common::BaseService::destroy_packet_factory </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtfs_1_1common_1_1_base_packet_factory.html">BasePacketFactory</a> *&#160;</td>
+          <td class="paramname"><em>factory</em>)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>destroy packet factory </p>
+
+<p>在 <a class="el" href="class_test_service.html#aada62607d49f713025300418881d68b4">TestService</a>, <a class="el" href="classtfs_1_1adminserver_1_1_admin_server.html#a72e6ac72413bc3599c3317926aae991c">tfs::adminserver::AdminServer</a>, <a class="el" href="classtfs_1_1mock_1_1_mock_data_service.html#a59de17ce261b491a9536ae5b260c0828">tfs::mock::MockDataService</a>, <a class="el" href="classtfs_1_1dataserver_1_1_data_service.html#a5b504994244bc78a0fac40db2fc614b7">tfs::dataserver::DataService</a>, <a class="el" href="classtfs_1_1nameserver_1_1_name_server.html#a3c10ba93422b1a1cd4a1ff4322cc546b">tfs::nameserver::NameServer</a> , 以及 <a class="el" href="classtfs_1_1rcserver_1_1_rc_service.html#ad8ddeeccb48bee625b17d6adde917971">tfs::rcserver::RcService</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1f6c8da03d00c7e15e657c394a4fb06c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void tfs::common::BaseService::destroy_packet_streamer </td>
+          <td>(</td>
+          <td class="paramtype">tbnet::IPacketStreamer *&#160;</td>
+          <td class="paramname"><em>streamer</em>)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>destroy the packet streamer </p>
+
+<p>在 <a class="el" href="class_test_service.html#af2760878edef045bf833475a31593779">TestService</a>, <a class="el" href="classtfs_1_1adminserver_1_1_admin_server.html#a9f08cea3be87dac1eadd47bfebd6f28d">tfs::adminserver::AdminServer</a>, <a class="el" href="classtfs_1_1mock_1_1_mock_data_service.html#a957ccb06dc70af2893d06b829fb1adfe">tfs::mock::MockDataService</a>, <a class="el" href="classtfs_1_1dataserver_1_1_data_service.html#a7dd3da047a1ebafc860aca5505cce36e">tfs::dataserver::DataService</a>, <a class="el" href="classtfs_1_1nameserver_1_1_name_server.html#aaf368bc3ccabb5ae76260f6b662871a8">tfs::nameserver::NameServer</a> , 以及 <a class="el" href="classtfs_1_1rcserver_1_1_rc_service.html#a4d76aba22bab57dd5418df91108a6f51">tfs::rcserver::RcService</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a646873d9c5485e497d344e01413d28c6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int tfs::common::BaseService::destroy_service </td>
+          <td>(</td>
+          <td class="paramname">)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>destroy application data </p>
+
+<p>被 <a class="el" href="classtfs_1_1adminserver_1_1_admin_server.html#a22be10e6cea921d57286b0b6b41225b0">tfs::adminserver::AdminServer</a>, <a class="el" href="classtfs_1_1mock_1_1_mock_data_service.html#a46c1ea4df3f38283c3ae3842d52b28cf">tfs::mock::MockDataService</a>, <a class="el" href="classtfs_1_1dataserver_1_1_data_service.html#ab1b2286805808b7f19db3d46dfd621c9">tfs::dataserver::DataService</a> , 以及 <a class="el" href="classtfs_1_1nameserver_1_1_name_server.html#a89182988d8691e5169221be0a5865676">tfs::nameserver::NameServer</a> 重载.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4de1a235c89a613d3819f5d5367c0bb5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char *const tfs::common::BaseService::get_dev </td>
+          <td>(</td>
+          <td class="paramname">)</td><td></td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>get network device </p>
+
+</div>
+</div>
+<a class="anchor" id="ac2982a3bd0918c3a3f0b228defac8f22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * tfs::common::BaseService::get_ip_addr </td>
+          <td>(</td>
+          <td class="paramname">)</td><td></td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>get ip addr </p>
+
+</div>
+</div>
+<a class="anchor" id="aea399e0bc5052c87f83736b31c37e4e2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int tfs::common::BaseService::get_listen_port </td>
+          <td>(</td>
+          <td class="paramname">)</td><td></td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>get listen port </p>
+
+<p>被 <a class="el" href="classtfs_1_1dataserver_1_1_data_service.html#a8ffcc44ecd6e21c1ca3e08a5ed0db775">tfs::dataserver::DataService</a> , 以及 <a class="el" href="classtfs_1_1mock_1_1_mock_data_service.html#a5d81c6456795024c0d0751869509aace">tfs::mock::MockDataService</a> 重载.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1c41dcfb8f83bd6c783186141a0ee354"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">tbnet::IPacketStreamer* tfs::common::BaseService::get_packet_streamer </td>
+          <td>(</td>
+          <td class="paramname">)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>get the packete streamer </p>
+
+</div>
+</div>
+<a class="anchor" id="af918e63391f6d6e0df038b6ea2aeedd6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t tfs::common::BaseService::get_port </td>
+          <td>(</td>
+          <td class="paramname">)</td><td></td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>get listen port </p>
+
+</div>
+</div>
+<a class="anchor" id="a44652bd9b53dcce0c1c0e251a52a03f2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">tbutil::TimerPtr&amp; tfs::common::BaseService::get_timer </td>
+          <td>(</td>
+          <td class="paramname">)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>get timer </p>
+
+</div>
+</div>
+<a class="anchor" id="ae0fedc0daea5e4349b547fd81e367482"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tbnet::Transport&amp; tfs::common::BaseService::get_transport </td>
+          <td>(</td>
+          <td class="paramname">)</td><td></td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>get transport </p>
+
+</div>
+</div>
+<a class="anchor" id="af1746ac2d9c8e324d76f2ac4e32fc532"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t tfs::common::BaseService::get_work_queue_size </td>
+          <td>(</td>
+          <td class="paramname">)</td><td></td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>get work queue size </p>
+
+</div>
+</div>
+<a class="anchor" id="a63d3b6170662639d2fe53bf1b57e96bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t tfs::common::BaseService::get_work_thread_count </td>
+          <td>(</td>
+          <td class="paramname">)</td><td></td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>get main work thread count </p>
+
+</div>
+</div>
+<a class="anchor" id="a04dc4b881d865979bec0ca45baa9aea2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tfs::common::BaseService::golbal_async_callback_func </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtfs_1_1common_1_1_new_client.html">NewClient</a> *&#160;</td>
+          <td class="paramname"><em>client</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>golbal aysnc callback function </p>
+
+</div>
+</div>
+<a class="anchor" id="ac600b9b1b28973a72ce054de757c320c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">tbnet::IPacketHandler::HPRetCode tfs::common::BaseService::handlePacket </td>
+          <td>(</td>
+          <td class="paramtype">tbnet::Connection *&#160;</td>
+          <td class="paramname"><em>connection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">tbnet::Packet *&#160;</td>
+          <td class="paramname"><em>packet</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>handle single packet </p>
+
+<p>被 <a class="el" href="classtfs_1_1adminserver_1_1_admin_server.html#aaa9f8b4df08e4828cb9c24f5d5056398">tfs::adminserver::AdminServer</a>, <a class="el" href="classtfs_1_1dataserver_1_1_data_service.html#ab76fbc956cee2814b97899af60546276">tfs::dataserver::DataService</a> , 以及 <a class="el" href="classtfs_1_1nameserver_1_1_name_server.html#ad9a1a50ce0650e02f75bbd845830c6c5">tfs::nameserver::NameServer</a> 重载.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4f6407e3da6fef8b09a1724e817ea4e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tfs::common::BaseService::handlePacketQueue </td>
+          <td>(</td>
+          <td class="paramtype">tbnet::Packet *&#160;</td>
+          <td class="paramname"><em>packet</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>handle packet</p>
+<p>Note if return true, PacketQueueThread will delete this packet </p>
+
+<p>被 <a class="el" href="class_test_service.html#a2e6698a515a62ace2a7b403d00768e2a">TestService</a>, <a class="el" href="classtfs_1_1adminserver_1_1_admin_server.html#a79a805a0cd3819fff31791486f195ad7">tfs::adminserver::AdminServer</a>, <a class="el" href="classtfs_1_1dataserver_1_1_data_service.html#a67a15ddef8632113085a07accee263f9">tfs::dataserver::DataService</a>, <a class="el" href="classtfs_1_1mock_1_1_mock_data_service.html#ac993758458500dd904f3bf22c9df0ee9">tfs::mock::MockDataService</a>, <a class="el" href="classtfs_1_1nameserver_1_1_name_server.html#ab061581de030465e9786feb3b59bf837">tfs::nameserver::NameServer</a> , 以及 <a class="el" href="classtfs_1_1rcserver_1_1_rc_service.html#a16885fa257e482e07fba05f0b676286b">tfs::rcserver::RcService</a> 重载.</p>
+
+</div>
+</div>
+<a class="anchor" id="afcc0a7da6fa5e668bac074a3471bb33e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int tfs::common::BaseService::initialize </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname">[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>initialize application data </p>
+
+<p>被 <a class="el" href="class_test_service.html#af31fd01894722786d65c7f9b2cf73406">TestService</a>, <a class="el" href="classtfs_1_1adminserver_1_1_admin_server.html#aeb8a05723cfe4e2e464ba54b7fa96d72">tfs::adminserver::AdminServer</a>, <a class="el" href="classtfs_1_1mock_1_1_mock_data_service.html#a2170cb89c3089eb3e36a0f01bccb1d61">tfs::mock::MockDataService</a>, <a class="el" href="classtfs_1_1dataserver_1_1_data_service.html#a6a91ca3715d4a46017382eda490bc70e">tfs::dataserver::DataService</a> , 以及 <a class="el" href="classtfs_1_1nameserver_1_1_name_server.html#abbf5f351706bc5dad000b2dc98f6b573">tfs::nameserver::NameServer</a> 重载.</p>
+
+</div>
+</div>
+<a class="anchor" id="a63066d7dd95290e3dd2f7c624c5bd344"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tfs::common::BaseService::push </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtfs_1_1common_1_1_base_packet.html">BasePacket</a> *&#160;</td>
+          <td class="paramname"><em>packet</em>)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>push workitem to workers </p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>E:/tfs-1.4/src/common/<a class="el" href="base__service_8h_source.html">base_service.h</a></li>
+<li>E:/tfs-1.4/src/common/base_service.cpp</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2013年 七月 2日 星期二 08:20:18 , 为 tfs-doc使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.4
+</small></address>
+</body>
+</html>

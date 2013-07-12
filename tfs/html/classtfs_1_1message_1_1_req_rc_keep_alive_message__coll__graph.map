@@ -1,0 +1,7 @@
+<map id="tfs::message::ReqRcKeepAliveMessage" name="tfs::message::ReqRcKeepAliveMessage">
+<area shape="rect" id="node2" href="$classtfs_1_1common_1_1_base_packet.html" title="tfs::common::BasePacket" alt="" coords="339,56,512,83"/>
+<area shape="rect" id="node4" href="$classtfs_1_1common_1_1_stream.html" title="tfs::common::Stream" alt="" coords="33,56,177,83"/>
+<area shape="rect" id="node5" href="$structtfs_1_1common_1_1_keep_alive_info.html" title="tfs::common::KeepAliveInfo" alt="" coords="336,107,515,133"/>
+<area shape="rect" id="node6" href="$structtfs_1_1common_1_1_session_base_info.html" title="tfs::common::SessionBaseInfo" alt="" coords="6,107,205,133"/>
+<area shape="rect" id="node7" href="$structtfs_1_1common_1_1_session_stat.html" title="tfs::common::SessionStat" alt="" coords="19,157,192,184"/>
+</map>

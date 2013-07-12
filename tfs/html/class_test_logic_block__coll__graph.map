@@ -1,0 +1,9 @@
+<map id="TestLogicBlock" name="TestLogicBlock">
+<area shape="rect" id="node3" href="$structtfs_1_1common_1_1_m_map_option.html" title="tfs::common::MMapOption" alt="" coords="360,56,536,83"/>
+<area shape="rect" id="node4" href="$classtfs_1_1dataserver_1_1_logic_block.html" title="tfs::dataserver::LogicBlock" alt="" coords="361,116,535,143"/>
+<area shape="rect" id="node5" href="$classtfs_1_1common_1_1_r_w_lock.html" title="tfs::common::RWLock" alt="" coords="21,40,173,67"/>
+<area shape="rect" id="node6" href="$classtfs_1_1dataserver_1_1_index_handle.html" title="tfs::dataserver::IndexHandle" alt="" coords="6,91,189,117"/>
+<area shape="rect" id="node7" href="$classtfs_1_1dataserver_1_1_data_handle.html" title="tfs::dataserver::DataHandle" alt="" coords="8,141,187,168"/>
+<area shape="rect" id="node8" href="$classtfs_1_1dataserver_1_1_block_status.html" title="tfs::dataserver::BlockStatus" alt="" coords="6,192,189,219"/>
+<area shape="rect" id="node9" href="$classtfs_1_1dataserver_1_1_physical_block.html" title="tfs::dataserver::Physical\lBlock" alt="" coords="367,213,529,254"/>
+</map>

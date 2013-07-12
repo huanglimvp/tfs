@@ -1,0 +1,9 @@
+<map id="tfs::client::TfsLargeFile" name="tfs::client::TfsLargeFile">
+<area shape="rect" id="node2" href="$classtfs_1_1client_1_1_tfs_file.html" title="tfs::client::TfsFile" alt="" coords="579,80,701,107"/>
+<area shape="rect" id="node3" href="$classtfs_1_1common_1_1_r_w_lock.html" title="tfs::common::RWLock" alt="" coords="296,5,448,32"/>
+<area shape="rect" id="node4" href="$classtfs_1_1client_1_1_f_s_name.html" title="tfs::client::FSName" alt="" coords="305,56,439,83"/>
+<area shape="rect" id="node5" href="$structtfs_1_1client_1_1_segment_data.html" title="tfs::client::SegmentData" alt="" coords="291,107,453,133"/>
+<area shape="rect" id="node6" href="$structtfs_1_1common_1_1_file_info.html" title="tfs::common::FileInfo" alt="" coords="22,81,165,108"/>
+<area shape="rect" id="node7" href="$structtfs_1_1common_1_1_segment_info.html" title="tfs::common::SegmentInfo" alt="" coords="6,132,181,159"/>
+<area shape="rect" id="node8" href="$classtfs_1_1client_1_1_tfs_session.html" title="tfs::client::TfsSession" alt="" coords="299,157,445,184"/>
+</map>

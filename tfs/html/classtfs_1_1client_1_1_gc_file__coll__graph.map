@@ -1,0 +1,5 @@
+<map id="tfs::client::GcFile" name="tfs::client::GcFile">
+<area shape="rect" id="node2" href="$classtfs_1_1client_1_1_segment_container.html" title="tfs::client::SegmentContainer\l\&lt; std::vector\&lt; common::SegmentInfo \&gt; \&gt;" alt="" coords="70,97,329,138"/>
+<area shape="rect" id="node3" href="$structtfs_1_1common_1_1_segment_head.html" title="tfs::common::SegmentHead" alt="" coords="5,5,189,32"/>
+<area shape="rect" id="node4" href="$classtfs_1_1common_1_1_file_operation.html" title="tfs::common::FileOperation" alt="" coords="213,5,392,32"/>
+</map>

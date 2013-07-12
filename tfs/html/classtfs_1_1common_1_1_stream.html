@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>tfs-doc: tfs::common::Stream类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">tfs-doc
+   &#160;<span id="projectnumber">1.4</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.4 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>tfs</b></li><li class="navelem"><b>common</b></li><li class="navelem"><a class="el" href="classtfs_1_1common_1_1_stream.html">Stream</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#friends">友元</a> &#124;
+<a href="classtfs_1_1common_1_1_stream-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">tfs::common::Stream类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a6b18f7702c8b2ea87a2bab2ceb5e7337"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b18f7702c8b2ea87a2bab2ceb5e7337"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Stream</b> (const int64_t length)</td></tr>
+<tr class="separator:a6b18f7702c8b2ea87a2bab2ceb5e7337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98bc86c2571345bfa89ce8ec6cb5f170"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a98bc86c2571345bfa89ce8ec6cb5f170"></a>
+char *&#160;</td><td class="memItemRight" valign="bottom"><b>get_data</b> () const </td></tr>
+<tr class="separator:a98bc86c2571345bfa89ce8ec6cb5f170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a228013cb05a29fbeed085b6ba8e35393"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a228013cb05a29fbeed085b6ba8e35393"></a>
+int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>get_data_length</b> () const </td></tr>
+<tr class="separator:a228013cb05a29fbeed085b6ba8e35393"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac28d115cedd81edef5edb71903325cc0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac28d115cedd81edef5edb71903325cc0"></a>
+char *&#160;</td><td class="memItemRight" valign="bottom"><b>get_free</b> () const </td></tr>
+<tr class="separator:ac28d115cedd81edef5edb71903325cc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8774f3b5dc2b7e5d664aaea9034ca7bf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8774f3b5dc2b7e5d664aaea9034ca7bf"></a>
+int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>get_free_length</b> () const </td></tr>
+<tr class="separator:a8774f3b5dc2b7e5d664aaea9034ca7bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd4420714cb41cf93ad948fe4ebcd05e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd4420714cb41cf93ad948fe4ebcd05e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>drain</b> (const int64_t length)</td></tr>
+<tr class="separator:acd4420714cb41cf93ad948fe4ebcd05e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43bbd23d336a6a00d9bc293a1e9085e9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43bbd23d336a6a00d9bc293a1e9085e9"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>pour</b> (const int64_t length)</td></tr>
+<tr class="separator:a43bbd23d336a6a00d9bc293a1e9085e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb30bff6ed85726f94efae79210a08bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeb30bff6ed85726f94efae79210a08bc"></a>
+<a class="el" href="classtfs_1_1common_1_1_buffer.html">Buffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>get_buffer</b> ()</td></tr>
+<tr class="separator:aeb30bff6ed85726f94efae79210a08bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afba5c6fceeec09c4a71af5c31599ef8a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afba5c6fceeec09c4a71af5c31599ef8a"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>set_int8</b> (const int8_t value)</td></tr>
+<tr class="separator:afba5c6fceeec09c4a71af5c31599ef8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92ae3ef3cd18e70bd441e2892ff0384d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92ae3ef3cd18e70bd441e2892ff0384d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>set_int16</b> (const int16_t value)</td></tr>
+<tr class="separator:a92ae3ef3cd18e70bd441e2892ff0384d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54b7730ece041c368c950f0cde081897"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a54b7730ece041c368c950f0cde081897"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>set_int32</b> (const int32_t value)</td></tr>
+<tr class="separator:a54b7730ece041c368c950f0cde081897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a311aac8850ac780c97408402998f9e29"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a311aac8850ac780c97408402998f9e29"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>set_int64</b> (const int64_t value)</td></tr>
+<tr class="separator:a311aac8850ac780c97408402998f9e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82a4783ffb5a604341dcdc17fdb8bbfa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a82a4783ffb5a604341dcdc17fdb8bbfa"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>set_bytes</b> (const void *data, const int64_t length)</td></tr>
+<tr class="separator:a82a4783ffb5a604341dcdc17fdb8bbfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd7dd9bbf44455984e75cfa30de60aa8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd7dd9bbf44455984e75cfa30de60aa8"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>set_string</b> (const char *str)</td></tr>
+<tr class="separator:abd7dd9bbf44455984e75cfa30de60aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc389b73c9d8c0d1d647dce00862e2fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adc389b73c9d8c0d1d647dce00862e2fb"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>set_string</b> (const std::string &amp;str)</td></tr>
+<tr class="separator:adc389b73c9d8c0d1d647dce00862e2fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a169402454f9bee484dcdb13b71197f1d"><td class="memTemplParams" colspan="2"><a class="anchor" id="a169402454f9bee484dcdb13b71197f1d"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a169402454f9bee484dcdb13b71197f1d"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>set_vint8</b> (const T &amp;value)</td></tr>
+<tr class="separator:a169402454f9bee484dcdb13b71197f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae395bb26c9703bf5487e3bd1f3e9fb38"><td class="memTemplParams" colspan="2"><a class="anchor" id="ae395bb26c9703bf5487e3bd1f3e9fb38"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ae395bb26c9703bf5487e3bd1f3e9fb38"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>set_vint16</b> (const T &amp;value)</td></tr>
+<tr class="separator:ae395bb26c9703bf5487e3bd1f3e9fb38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81c85cb13f94a6bf33fe4dcbd93e3eec"><td class="memTemplParams" colspan="2"><a class="anchor" id="a81c85cb13f94a6bf33fe4dcbd93e3eec"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a81c85cb13f94a6bf33fe4dcbd93e3eec"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>set_vint32</b> (const T &amp;value)</td></tr>
+<tr class="separator:a81c85cb13f94a6bf33fe4dcbd93e3eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae154dc8c029794bf1146cf248d2d66be"><td class="memTemplParams" colspan="2"><a class="anchor" id="ae154dc8c029794bf1146cf248d2d66be"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ae154dc8c029794bf1146cf248d2d66be"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>set_vint64</b> (const T &amp;value)</td></tr>
+<tr class="separator:ae154dc8c029794bf1146cf248d2d66be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a613321d20768f8ccd21563f6e9a08199"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a613321d20768f8ccd21563f6e9a08199"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>get_int8</b> (int8_t *value)</td></tr>
+<tr class="separator:a613321d20768f8ccd21563f6e9a08199"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8809dd61211c130c5d35208f4caeb008"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8809dd61211c130c5d35208f4caeb008"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>get_int16</b> (int16_t *value)</td></tr>
+<tr class="separator:a8809dd61211c130c5d35208f4caeb008"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa39b2a111c39d5ecc1df5af21e2cc571"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa39b2a111c39d5ecc1df5af21e2cc571"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>get_int32</b> (int32_t *value)</td></tr>
+<tr class="separator:aa39b2a111c39d5ecc1df5af21e2cc571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac46559a4fe629bd31fac320193b0d105"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac46559a4fe629bd31fac320193b0d105"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>get_int64</b> (int64_t *value)</td></tr>
+<tr class="separator:ac46559a4fe629bd31fac320193b0d105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d8d15aff8716d74a990c192b3ffb946"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d8d15aff8716d74a990c192b3ffb946"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>get_bytes</b> (void *data, const int64_t length)</td></tr>
+<tr class="separator:a7d8d15aff8716d74a990c192b3ffb946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60f66f5f9e7767d6b44022d3243ae884"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a60f66f5f9e7767d6b44022d3243ae884"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>get_string</b> (const int64_t buf_length, char *str, int64_t &amp;real_length)</td></tr>
+<tr class="separator:a60f66f5f9e7767d6b44022d3243ae884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cdcc58d72b6bf147da606bfa4c2fb2f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7cdcc58d72b6bf147da606bfa4c2fb2f"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>get_string</b> (std::string &amp;str)</td></tr>
+<tr class="separator:a7cdcc58d72b6bf147da606bfa4c2fb2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7720f8d8945d0250b7ac7b89463b15bd"><td class="memTemplParams" colspan="2"><a class="anchor" id="a7720f8d8945d0250b7ac7b89463b15bd"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7720f8d8945d0250b7ac7b89463b15bd"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>get_vint8</b> (T &amp;value)</td></tr>
+<tr class="separator:a7720f8d8945d0250b7ac7b89463b15bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa35e3a75ee71af3fc154b5caee7019e4"><td class="memTemplParams" colspan="2"><a class="anchor" id="aa35e3a75ee71af3fc154b5caee7019e4"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aa35e3a75ee71af3fc154b5caee7019e4"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>get_vint16</b> (T &amp;value)</td></tr>
+<tr class="separator:aa35e3a75ee71af3fc154b5caee7019e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ea081fa1ce2444043598974bd21b350"><td class="memTemplParams" colspan="2"><a class="anchor" id="a7ea081fa1ce2444043598974bd21b350"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7ea081fa1ce2444043598974bd21b350"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>get_vint32</b> (T &amp;value)</td></tr>
+<tr class="separator:a7ea081fa1ce2444043598974bd21b350"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f8727eb653c06c9ff04bf332729c49c"><td class="memTemplParams" colspan="2"><a class="anchor" id="a3f8727eb653c06c9ff04bf332729c49c"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a3f8727eb653c06c9ff04bf332729c49c"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>get_vint64</b> (T &amp;value)</td></tr>
+<tr class="separator:a3f8727eb653c06c9ff04bf332729c49c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+友元</h2></td></tr>
+<tr class="memitem:a60c3614cb0ecafdf865c4d4a63c85724"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a60c3614cb0ecafdf865c4d4a63c85724"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>BasePacket</b></td></tr>
+<tr class="separator:a60c3614cb0ecafdf865c4d4a63c85724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>E:/tfs-1.4/src/common/<a class="el" href="stream_8h_source.html">stream.h</a></li>
+<li>E:/tfs-1.4/src/common/stream.cpp</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2013年 七月 2日 星期二 08:20:19 , 为 tfs-doc使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.4
+</small></address>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" href="$classtfs_1_1rcserver_1_1_i_resource_manager.html" title="tfs::rcserver::IResource\lManager" alt="" coords="5,34,160,75"/>
+<area shape="rect" id="node2" href="$classtfs_1_1rcserver_1_1_mocked_resource_manager.html" title="tfs::rcserver::MockedResource\lManager" alt="" coords="210,5,409,46"/>
+<area shape="rect" id="node3" href="$classtfs_1_1rcserver_1_1_resource_manager.html" title="tfs::rcserver::ResourceManager" alt="" coords="208,71,411,97"/>
+</map>

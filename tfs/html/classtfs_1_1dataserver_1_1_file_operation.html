@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>tfs-doc: tfs::dataserver::FileOperation类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">tfs-doc
+   &#160;<span id="projectnumber">1.4</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.4 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>tfs</b></li><li class="navelem"><b>dataserver</b></li><li class="navelem"><a class="el" href="classtfs_1_1dataserver_1_1_file_operation.html">FileOperation</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="#pro-static-attribs">静态 Protected 属性</a> &#124;
+<a href="classtfs_1_1dataserver_1_1_file_operation-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">tfs::dataserver::FileOperation类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:ab996ff7b93f504aef001ac2c0f81d40a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab996ff7b93f504aef001ac2c0f81d40a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>FileOperation</b> (const std::string &amp;file_name, const int open_flags=O_RDWR|O_LARGEFILE)</td></tr>
+<tr class="separator:ab996ff7b93f504aef001ac2c0f81d40a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34ef4dc40d29ac00e86e42326bdd1717"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34ef4dc40d29ac00e86e42326bdd1717"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>open_file</b> ()</td></tr>
+<tr class="separator:a34ef4dc40d29ac00e86e42326bdd1717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1015e323d9dd31033524a5822ffddf71"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1015e323d9dd31033524a5822ffddf71"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>close_file</b> ()</td></tr>
+<tr class="separator:a1015e323d9dd31033524a5822ffddf71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdddcf4fb170ad07481ff33e0dd60aef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acdddcf4fb170ad07481ff33e0dd60aef"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>flush_file</b> ()</td></tr>
+<tr class="separator:acdddcf4fb170ad07481ff33e0dd60aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42e87abdfd2d2f52c67448baafffd9c2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42e87abdfd2d2f52c67448baafffd9c2"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>flush_data</b> ()</td></tr>
+<tr class="separator:a42e87abdfd2d2f52c67448baafffd9c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8764dba9690cc8f653e76ac72eb18c6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8764dba9690cc8f653e76ac72eb18c6"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>unlink_file</b> ()</td></tr>
+<tr class="separator:ad8764dba9690cc8f653e76ac72eb18c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2546b2312d395f5734113fa64d923650"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2546b2312d395f5734113fa64d923650"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>pread_file</b> (char *buf, const int32_t nbytes, const int64_t offset)</td></tr>
+<tr class="separator:a2546b2312d395f5734113fa64d923650"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4157d6072eb8eedae0ad59b825c74c5e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4157d6072eb8eedae0ad59b825c74c5e"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>pwrite_file</b> (const char *buf, const int32_t nbytes, const int64_t offset)</td></tr>
+<tr class="separator:a4157d6072eb8eedae0ad59b825c74c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e9a16d129025d411fd29c6484c1da4e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e9a16d129025d411fd29c6484c1da4e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>write_file</b> (const char *buf, const int32_t nbytes)</td></tr>
+<tr class="separator:a6e9a16d129025d411fd29c6484c1da4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e184a72063094230629dd3e7bdf7683"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7e184a72063094230629dd3e7bdf7683"></a>
+int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>get_file_size</b> ()</td></tr>
+<tr class="separator:a7e184a72063094230629dd3e7bdf7683"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67362143b5b5f4f9ad7fee278ddfaa02"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a67362143b5b5f4f9ad7fee278ddfaa02"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ftruncate_file</b> (const int64_t length)</td></tr>
+<tr class="separator:a67362143b5b5f4f9ad7fee278ddfaa02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a454ab4304c4a4bab2891bfaec86a27ee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a454ab4304c4a4bab2891bfaec86a27ee"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>seek_file</b> (const int64_t offset)</td></tr>
+<tr class="separator:a454ab4304c4a4bab2891bfaec86a27ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f9e7a590af0703d7f42426bd66c18a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f9e7a590af0703d7f42426bd66c18a9"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>get_fd</b> () const </td></tr>
+<tr class="separator:a9f9e7a590af0703d7f42426bd66c18a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:af8b059c2e919a21daf699d98e2c177df"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af8b059c2e919a21daf699d98e2c177df"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DISALLOW_COPY_AND_ASSIGN</b> (<a class="el" href="classtfs_1_1common_1_1_file_operation.html">FileOperation</a>)</td></tr>
+<tr class="separator:af8b059c2e919a21daf699d98e2c177df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05037bc9cb676ad6338eb8a54c790606"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a05037bc9cb676ad6338eb8a54c790606"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>check_file</b> ()</td></tr>
+<tr class="separator:a05037bc9cb676ad6338eb8a54c790606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a252cefc74fa98bea27ade998d6b32ae8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a252cefc74fa98bea27ade998d6b32ae8"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>fd_</b></td></tr>
+<tr class="separator:a252cefc74fa98bea27ade998d6b32ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35d54d5edb6fbf1dad545033f714bafb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a35d54d5edb6fbf1dad545033f714bafb"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>open_flags_</b></td></tr>
+<tr class="separator:a35d54d5edb6fbf1dad545033f714bafb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c8863884d0690bc9d0bdc44f73b9924"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8c8863884d0690bc9d0bdc44f73b9924"></a>
+char *&#160;</td><td class="memItemRight" valign="bottom"><b>file_name_</b></td></tr>
+<tr class="separator:a8c8863884d0690bc9d0bdc44f73b9924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
+静态 Protected 属性</h2></td></tr>
+<tr class="memitem:a39d681e8404a7bd01235c4cc636b1103"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a39d681e8404a7bd01235c4cc636b1103"></a>
+static const int&#160;</td><td class="memItemRight" valign="bottom"><b>MAX_DISK_TIMES</b> = 5</td></tr>
+<tr class="separator:a39d681e8404a7bd01235c4cc636b1103"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac970f2feb9528073cc923a88a9ba503"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aac970f2feb9528073cc923a88a9ba503"></a>
+static const mode_t&#160;</td><td class="memItemRight" valign="bottom"><b>OPEN_MODE</b> = 0644</td></tr>
+<tr class="separator:aac970f2feb9528073cc923a88a9ba503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>E:/tfs-1.4/src/dataserver/<a class="el" href="dataserver_2file__op_8h_source.html">file_op.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2013年 七月 2日 星期二 08:20:19 , 为 tfs-doc使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.4
+</small></address>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" href="$classtfs_1_1dataserver_1_1_file_formater.html" title="tfs::dataserver::FileFormater" alt="" coords="5,77,189,104"/>
+<area shape="rect" id="node2" href="$classtfs_1_1dataserver_1_1_ext3_full_file_formater.html" title="tfs::dataserver::Ext3Full\lFileFormater" alt="" coords="247,5,406,46"/>
+<area shape="rect" id="node3" href="$classtfs_1_1dataserver_1_1_ext3_simple_file_formater.html" title="tfs::dataserver::Ext3Simple\lFileFormater" alt="" coords="237,70,416,111"/>
+<area shape="rect" id="node4" href="$classtfs_1_1dataserver_1_1_ext4_file_formater.html" title="tfs::dataserver::Ext4File\lFormater" alt="" coords="247,135,406,177"/>
+</map>
